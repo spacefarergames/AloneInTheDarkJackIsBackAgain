@@ -255,7 +255,8 @@ Box Art
 <img width="1024" height="1536" alt="SteamAITD2" src="https://github.com/user-attachments/assets/d0de672f-26eb-47e9-920c-eeee6ca4b0c3" />
 
 Logo
-<img width="1024" height="1536" alt="Copilot_20260422_142748" src="https://github.com/user-attachments/assets/561fd6f3-97d7-49b1-a933-b3a422fef22f" />
+<img width="1024" height="279" alt="Copilot_20260422_142748" src="https://github.com/user-attachments/assets/d27b2d83-669e-4a99-a07c-c285baeb97b3" />
+
 
 
 
