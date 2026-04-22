@@ -1,4 +1,4 @@
-<img width="1536" height="1024" alt="AITD2" src="https://github.com/user-attachments/assets/13d349cd-5106-408c-b03f-cfdafeb01196" />
+<img width="1536" height="1024" alt="BCO 481e0b9a-fd42-4134-8e7c-046c50a304b6(2)" src="https://github.com/user-attachments/assets/6866b37a-d42a-48da-b16a-7b6a9e9ecece" />
 
 # Alone In The Dark 2 : Jack Is Back Again (Rehaunted)
 
