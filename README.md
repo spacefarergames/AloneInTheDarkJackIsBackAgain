@@ -252,6 +252,7 @@ The original game data files are **not** included and must be obtained separatel
 
 ## Steam Assets
 Box Art
+<img width="1024" height="1536" alt="SteamAITD2" src="https://github.com/user-attachments/assets/d0de672f-26eb-47e9-920c-eeee6ca4b0c3" />
 
 Logo
 
