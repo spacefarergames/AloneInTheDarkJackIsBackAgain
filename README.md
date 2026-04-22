@@ -1,4 +1,4 @@
-![BCO b91ab279-5d06-4e0e-9661-41d0371e3ac4(1)](https://github.com/user-attachments/assets/867772e8-ada8-41a1-a9f6-46f80fda76be)
+<img width="1536" height="1024" alt="BCO 481e0b9a-fd42-4134-8e7c-046c50a304b6" src="https://github.com/user-attachments/assets/bc2958e7-5cf8-4a9f-9a8f-b2516cf8e149" />
 
 # Alone In The Dark 2 : Jack Is Back Again (Rehaunted)
 
@@ -11,32 +11,19 @@
 
 AITD-R (also known as *Alone In The Dark Re-Haunted*) lets you play the original *Alone in the Dark* games on modern hardware. It is a from-scratch C++ reimplementation of the Infogrames engine, built with modern rendering (bgfx), audio (SoLoud), and input (SDL3) backends. The project is released under the **GNU General Public License v2**.
 
-> **You must own the original game data** — purchase *Alone in the Dark* on [Steam](https://store.steampowered.com/app/548090/Alone_in_the_Dark_1/) or [GOG](https://www.gog.com/en/game/alone_in_the_dark_the_trilogy_123). The game data files are **not** included.
+> **You must own the original game data** — purchase *Alone in the Dark II* on [Steam](https://store.steampowered.com/app/548890/Alone_in_the_Dark_2/) or [GOG](https://www.gog.com/en/game/alone_in_the_dark_the_trilogy_123). The game data files are **not** included.
 
 ---
 
 ## Screenshots (In-Game)
-![573227923-7d49eb5a-8d31-4474-a939-ff9876fdc9df](https://github.com/user-attachments/assets/63ea6028-5b75-4003-9db5-a0e3c9040d87)
-
-![573228488-b0206b5f-8026-46d0-89a6-b5dc6b7ba73e](https://github.com/user-attachments/assets/e7fa702a-6d17-4ce2-afc4-573c3be5340e)
 
 ## Video (YouTube)
-https://www.youtube.com/watch?v=fzi_xK2Jifw
-
-## Lamp Dynamic Lighting
-https://www.youtube.com/watch?v=0yaWv7vF3bA
-
-<img width="1920" height="1080" alt="vlcsnap-2026-04-22-13h52m48s765" src="https://github.com/user-attachments/assets/9f25879b-5c99-4313-b427-b17670c19a83" />
 
 ## Supported Games
 
 | Game | Steam | GOG | Status |
 |------|-------|-----|--------|
-| Alone in the Dark 1 | [Store page](https://store.steampowered.com/app/548090/Alone_in_the_Dark_1/) | [Trilogy](https://www.gog.com/en/game/alone_in_the_dark_the_trilogy_123) | ✅ Completable
-
-## Future Forks (And Project Names)
-| Alone in the Dark 2 - Jack Is Back Again |✅ In Progress
-| Alone in the Dark 3 - Rhinestone Cowboy | ✅ Planned
+| Alone in the Dark 2 | [Store page](https://store.steampowered.com/app/548890/Alone_in_the_Dark_2/) | [Trilogy](https://www.gog.com/en/game/alone_in_the_dark_the_trilogy_123) | ✅ In Progress
 
 ---
 
@@ -44,8 +31,8 @@ https://www.youtube.com/watch?v=0yaWv7vF3bA
 
 ```bash
 # 1. Clone with submodules
-git clone --recurse-submodules https://github.com/spacefarergames/AloneInTheDarkReHaunted.git
-cd FITD
+git clone --recurse-submodules https://github.com/spacefarergames/AloneInTheDarkJackIsBackAgain.git
+cd TatouSource2
 
 # 2. Generate the VS solution
 build\vs2022.bat          # Visual Studio 2022
@@ -59,7 +46,7 @@ In Visual Studio:
 2. Set the **Working Directory** (Project → Properties → Debugging) to the folder containing your game data files (e.g. your AITD1 Steam install directory).
 3. Press **F5** to build and run.
 
-> The output executable is named `Tatou.exe`.
+> The output executable is named `Tatou2.exe`.
 
 ## Quick Start (Linux)
 
@@ -76,29 +63,25 @@ cmake ../.. -DCMAKE_BUILD_TYPE=Release
 cmake --build . -j$(nproc)
 
 # Run (from game data directory)
-cd Fitd && ./Tatou
+cd Fitd && ./Tatou2
 ```
-
 For full multi-platform build instructions see **[BUILDING.md](BUILDING.md)**.
-
 ---
 
 ## How to Play
 
 ### Starting a New Game
 
-1. Launch `Tatou.exe` from the game data directory (the folder containing the original `.PAK` / `.ITD` files).
+1. Launch `Tatou2.exe` from the game data directory (the folder containing the original `.PAK` / `.ITD` files).
 2. The engine auto-detects which game is installed based on the data files present.
-3. For AITD1: after the Infogrames logo and armadillo animation, select your character — **Edward Carnby** (detective) or **Emily Hartwood** (heiress).
-4. The game begins in the attic of Derceto Manor.
-5. Copy the built DOSBox.exe into your Alone In The Dark Steam/GOG game folder alongside Tatou.exe. When Steam launches "DOSBox.exe", it will start the FITD engine instead.
+3. Copy the built DOSBox.exe into your Alone In The Dark 2 Steam/GOG game folder alongside Tatou2.exe. When Steam launches "DOSBox.exe", it will start the FITD engine instead.
 
 ### Automatic Installation
 Beginning with Version 2.0, Rehaunted will automatically find and copy over the original game files if installed from Steam, GOG or the CD version is in the drive. If found, the game will copy the files and you will be good to go. In the event it doesn't copy them into the game directory. As an extra bonus, it will copy itself over afterwards to make it easy to launch from Steam / GOG. The Steam Overlay will then work too!
 
 ### Gameplay Basics
 
-*Alone in the Dark* is a survival-horror adventure. You explore a haunted mansion, solve puzzles, and fight (or flee from) supernatural enemies.
+*Alone in the Dark 2* is a survival-horror adventure. You explore an estate, pirate ship and more!
 
 - **Movement** — Walk forward, backward, and turn left/right (tank controls).
 - **Action** — Press the action key/button near objects to interact: open doors, pick up items, push objects, and fight enemies.
@@ -226,7 +209,7 @@ Copy `fitd_remaster.cfg.example` to `aitd_remaster.cfg` alongside the game data 
 ## Project Layout
 
 ```
-FITD/
+TatouSource2/
 ├── Fitd/                  # Executable entry point (WinMain / main)
 ├── FitdLib/               # Core engine static library (~75 source files)
 │   ├── shaders/           # bgfx shader programs (.sc)
@@ -269,10 +252,8 @@ The original game data files are **not** included and must be obtained separatel
 
 ## Steam Assets
 Box Art
-![573480799-62b94c3b-7fd4-4b7d-8f81-f504382f798d](https://github.com/user-attachments/assets/e01731c3-5f6a-42a8-9330-227242e1d919)
 
 Logo
-<img width="1536" height="1024" alt="Copilot_20260403_111155" src="https://github.com/user-attachments/assets/9277959d-af64-4c71-9bae-70007b945838" />
 
 
 
